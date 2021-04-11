@@ -9,10 +9,10 @@ variable "cidr2" {
 
 
 variable "vpc_name" {
-  default = "github-vpc"
+  default = "cicd1"
 }
 
 variable "vpc_name2" {
-  default = "github-vpc2"
+  default = "cicd2"
 }
 
