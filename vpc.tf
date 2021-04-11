@@ -9,7 +9,7 @@ resource "aws_vpc" "davpc" {
 }
 
 resource "aws_vpc" "davpc2" {
-  cidr_block       = "${var.vpc_cidr}"
+  cidr_block       = "${var.cidr2}"
   instance_tenancy = "default"
 
   tags = {
