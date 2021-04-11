@@ -8,12 +8,12 @@ resource "aws_vpc" "davpc" {
   }
 }
 
-#resource "aws_vpc" "davpc2" {
-#  cidr_block       = "${var.vpc_cidr}"
-#  instance_tenancy = "default"
-#
-#  tags = {
-#    Name = "${var.vpc_name2}"
-#  }
-#}
+resource "aws_vpc" "davpc2" {
+  cidr_block       = "${var.vpc_cidr}"
+  instance_tenancy = "default"
+
+  tags = {
+    Name = "${var.vpc_name2}"
+  }
+}
 
